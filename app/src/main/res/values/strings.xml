@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mylaba67</string>
+    <string name="vp_quantity">Количество товара:</string>
+    <string name="vp_price">Цена за единицу товара:</string>
+    <string name="vp_btn_buy">Купить</string>
+    <string name="products_not">Товаров нет</string>
+    <string name="action_back">Переход в административную часть</string>
+    <string name="action_store">Переход в пользовательскую часть</string>
+    <string name="action_back_add">Добавить</string>
+    <string name="action_back_save">Сохранить</string>
+    <string name="action_back_add_name">Введите название товара</string>
+    <string name="action_back_add_price">Введите цену товара</string>
+    <string name="action_back_add_quantity">Введите количество товара</string>
+    <string name="action_back_cancel">Отмена</string>
+    <string name="action_back_add_name_tv">Название</string>
+    <string name="action_back_add_price_tv">Цена</string>
+    <string name="action_back_add_quantity_tv">Количество</string>
+
+</resources>

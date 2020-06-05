@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frR"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vp_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#363636"
+                android:textSize="35sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|start"
+                    android:text="@string/vp_quantity"
+                    android:textColor="#3F3F3F"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/vp_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:text="0"
+                    android:textColor="#3B7773"
+                    android:textSize="30sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|start"
+                    android:text="@string/vp_price"
+                    android:textColor="#3F3F3F"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/vp_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:text="0"
+                    android:textColor="#3B7773"
+                    android:textSize="30sp" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/vp_btn_buy"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@drawable/btn_rounded_corner"
+            android:text="@string/vp_btn_buy"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:onClick="change"/>
+
+    </FrameLayout>
+</RelativeLayout>
